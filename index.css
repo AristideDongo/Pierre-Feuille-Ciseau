@@ -1,0 +1,61 @@
+body{
+ background-color: #af6d0a7e;
+ font-family: 'Times New Roman', Times, serif;
+ padding: 0;
+ margin: 0;
+}
+
+h1{
+ font-size: 2rem;
+ text-align: center;
+ padding-top: 100px;
+}
+
+p{
+ font-size: 1.5rem;
+ font-weight: 600;
+ text-align: center;
+ margin-bottom: 0.5rem;
+}
+
+.buttons{
+ display: flex;
+ justify-content: center;
+}
+
+button{
+ border: none;
+ font-size: 3rem;
+ margin: 0 0 0.5rem;
+ padding: 1.5rem;
+ cursor: pointer;
+ border-radius: 10%;
+ transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+ opacity: 0.7;
+}
+
+#caillou{
+ margin: 10px;
+ background-color: #0c0c0c;
+}
+
+#feuille{
+ margin: 10px;
+ background-color: #5dfc01;
+}
+
+#ciseau{
+ margin: 10px;
+ background-color: #0fc4ca;
+}
+
+#user-score{
+ color: #2196f3;
+}
+
+#computer-score{
+ color: #ff0000;
+}
